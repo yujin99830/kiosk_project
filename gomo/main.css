@@ -1,0 +1,652 @@
+.kiosk {
+    display:flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.kiosk_background {
+    width: 450px;
+    height: 95vh;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 1vh;
+}
+
+.kiosck_screen {
+    width: 428px;
+    height: 76vh;
+    background-color: white;
+    border-radius: 15px;
+    margin: 11px;
+    position: absolute;
+}
+
+#start {
+    width: 100%;
+    height: 100%;
+    margin-top : 0px;
+    background: url(img/start.jpeg) no-repeat center / cover;
+    border-radius: 15px;
+}
+
+#choose {
+    width: 428px;
+    height: 25vh;
+    margin-top : -500px;
+    background-color: #303030d6;
+}
+
+#color {
+    color : #d66f6f;
+}
+
+#text_margin {
+    padding-top : 20px;
+    padding-left : 80px;
+}
+
+#for_here { 
+    margin-top : 30px;
+    margin-left : 80px;
+    width : 100px;
+    height : 100px;
+    border-radius: 10px;
+    font-size : 1.5rem;
+    font-weight : bold;
+    letter-spacing: 0.25rem;
+}
+
+#to_go {
+    margin-left : 60px;
+    width : 100px;
+    height : 100px;
+    border-radius: 10px;
+    font-size : 1.5rem;
+    font-weight : bold;
+    letter-spacing: 0.25rem;
+}
+
+#order{
+    display: none;
+}
+
+#order2 {
+    display: none;
+}
+
+#menu_bar  {
+    background-color: white;
+    color: black;
+    height : 20px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#sub_menu_bar {
+    background-color: white;
+    color: black;
+    height : 20px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#menu_table {
+    width: 100%;
+    height: 60%;
+    display: none;
+    background-color: white;
+}
+
+#row {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+#row div {
+    width: 80px;
+    height: 125px;
+}
+
+#best {
+    display : none;
+}
+
+#beverage {
+    display : none;
+}
+#icecream {
+    display : none;
+}
+#cake {
+    display : none;
+}
+#deli {
+    display : none;
+}
+#goods {
+    display : none;
+}
+
+#shopping {
+    background-color : #d66f6f;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    margin-top : -500px;
+    margin-left : 300px;
+}
+
+#count {
+    background-color : #faeb1b;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    margin-top : -65px;
+    margin-left : 380px;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#screen_to_detail {
+    width: 100%;
+    height: 100%;
+    background: #595959;
+    opacity: 0.5;
+    position: absolute; 
+    top: 0;
+}
+#window_detail1 {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);  
+    overflow-x : hidden;  
+}
+#window_detail2 {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);  
+    overflow-x : hidden;  
+}
+#window_detail3 {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);  
+    overflow-x : hidden;  
+}
+#window_detail4 {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);  
+    overflow-x : hidden;  
+}
+#window_detail5 {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);  
+    overflow-x : hidden;  
+}
+
+
+#option {
+    background-color : #d66f6f;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#back {
+    background-color : #363636;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-top : 40px;
+}
+
+#add {
+    background-color : #e6a3a3;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-top : -50px;
+    margin-left : 140px;
+}
+
+#pay {
+    background-color : #d66f6f;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-top : -50px;
+    margin-left : 280px;
+}
+
+#pay_detail {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);    
+}
+#pay_new {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87); 
+}
+
+
+
+#general {
+    margin-left :30px;
+    width : 125px;
+    height : 125px;
+    border-radius: 10px;
+    font-size:1rem;
+}
+
+#window_order_list {
+    width: 100%;
+    height: 60%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#window_order_list div {
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    gap: 20px;
+    font-weight: bolder;
+    font-size: 1.5vh;
+}
+#window_1 {
+    margin-top: 5%;
+}
+#window_num_price {
+    width: 90%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    border: solid #cac8c8 1px;
+    margin-left: 5%;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+#window_num {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+#window_price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+[type=radio]:checked + img{
+    border-style : solid;
+    border-color : red;
+}
+
+#fast_pay {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87);
+}
+#insertpay {
+    width: 90%;
+    height: 35%;
+    margin-left: 5%;
+    margin-top: 13%;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+
+}
+#insertpay div {
+    display: flex;
+    justify-content: center;
+}
+#card {
+    width: 330px;
+    height: 180px;
+    background: url(img/card.png) no-repeat center/cover;
+    justify-content: center;
+}
+#list {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    padding-bottom: 5%;
+    font-weight: bolder;
+    font-size: 2vh;
+}
+#list div {
+    height: 30%;
+    line-height: 220%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#price_list {
+    background: #fecbcb;   
+    border-radius: 5px;
+}
+#total {
+    color : red;
+}
+#total_price {
+    color : red;
+}
+#general_pay {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87); 
+}
+#reward {
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 13%;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    width: 300px;
+}
+tr {
+    text-align: center;
+}
+td {
+    width: 80px;
+}
+input[type=text] {
+    height: 50px;
+}
+input[type=button] {
+    width: 80px;
+    height: 80px;
+}
+
+#gift {
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.87); 
+}
+
+#coupon {
+    width: 330px;
+    height: 400px;
+    background: url(img/coupon.png) no-repeat center/cover;
+    justify-content: center;
+}
+
+/*음료 사진*/
+/*커피*/
+#아메리카노 {
+    background: url(img/아메리카노.jpg) no-repeat center / cover; 
+}
+#카페라떼 {
+    background: url(img/카페라떼.jpg) no-repeat center / cover;
+}
+#카푸치노 {
+    background: url(img/카푸치노.jpg) no-repeat center / cover;
+}
+#카페모카 {
+    background: url(img/카페모카.jpg) no-repeat center / cover;
+}
+#카라멜마끼야또 {
+    background: url(img/카라멜마끼야또.jpg) no-repeat center / cover;
+}
+#에스프레소 {
+    background: url(img/에스프레소.jpg) no-repeat center / cover;
+}
+#달고나카페라떼 {
+    background: url(img/달고나카페라떼.jpg) no-repeat center / cover;
+}
+#흑임자카페라떼 {
+    background: url(img/흑임자카페라떼.jpg) no-repeat center / cover;
+}
+#콜드브루 {
+    background: url(img/콜드브루.jpg) no-repeat center / cover;
+}
+#콜드브루라떼 {
+    background: url(img/콜드브루라떼.jpg) no-repeat center / cover;
+}
+#올타임콜드브루 {
+    background: url(img/올타임콜드브루.jpg) no-repeat center / cover;
+}
+#아인슈페너2023 {
+    background: url(img/아인슈페너2023.jpg) no-repeat center / cover;
+}
+
+/*차*/
+#카모마일티{
+    background: url(img/카모마일티.jpg) no-repeat center / cover;
+}
+
+#피치블랙티 {
+    background: url(img/피치블랙티.jpg) no-repeat center / cover;
+}
+#잉글리쉬브렉퍼스트 {
+    background: url(img/잉글리쉬브렉퍼스트.jpg) no-repeat center / cover;
+}
+#얼그레이 {
+    background: url(img/얼그레이.jpg) no-repeat center / cover;
+}
+#민트 {
+    background: url(img/민트.jpg) no-repeat center / cover;
+}
+#애플민트 {
+    background: url(img/애플민트.jpg) no-repeat center / cover;
+}
+#허니레몬티 {
+    background: url(img/허니레몬티.jpg) no-repeat center / cover;
+}
+#아이스버블밀크티 {
+    background: url(img/아이스버블밀크티.jpg) no-repeat center / cover;
+}
+#아이스버블그린티라떼 {
+    background: url(img/아이스버블그린티라떼.jpg) no-repeat center / cover;
+}
+#로얄밀크티 {
+    background: url(img/로얄밀크티.jpg) no-repeat center / cover;
+}
+#그린티라떼 {
+    background: url(img/그린티라떼.jpg) no-repeat center / cover;
+}
+#유자레몬티 {
+    background: url(img/유자레몬티.jpg) no-repeat center / cover;
+}
+#오렌지자몽티 {
+    background: url(img/오렌지자몽티.jpg) no-repeat center / cover;
+}
+
+/*에이드*/
+#복숭아에이드 {
+    background: url(img/복숭아에이드.jpg) no-repeat center / cover;
+}
+#샤인머스캣에이드 {
+    background: url(img/샤인머스캣에이드.jpg) no-repeat center / cover;
+}
+#레몬셔벗에이드 {
+    background: url(img/레몬셔벗에이드.jpg) no-repeat center / cover;
+}
+#자몽에이드 {
+    background: url(img/자몽에이드.jpg) no-repeat center / cover;
+}
+#오렌지에이드 {
+    background: url(img/오렌지에이드.jpg) no-repeat center / cover;
+}
+#청포도에이드 {
+    background: url(img/청포도에이드.jpg) no-repeat center / cover;
+}
+#레몬에이드 {
+    background: url(img/레몬에이드.jpg) no-repeat center / cover;
+}
+#블루레몬에이드 {
+    background: url(img/블루레몬에이드.jpg) no-repeat center / cover;
+}
+#라임모히또 {
+    background: url(img/라임모히또.jpg) no-repeat center / cover;
+}
+#체리콕 {
+    background: url(img/체리콕.jpg) no-repeat center / cover;
+}
+#유니콘핑크에이드 {
+    background: url(img/유니콘핑크에이드.jpg) no-repeat center / cover;
+}
+#유니콘매직에이드 {
+    background: url(img/유니콘매직에이드.jpg) no-repeat center / cover;
+}
+
+/*프라페,쉐이크*/
+#스트로베리초콜릿프라페 {
+    background: url(img/스트로베리초콜릿프라페.jpg) no-repeat center / cover;
+}
+#스트로베리피치프라페 {
+    background: url(img/스트로베리피치프라페.jpg) no-repeat center / cover;
+}
+#제주말차프라페 {
+    background: url(img/제주말차프라페.jpg) no-repeat center / cover;
+}
+#요거트프라페 {
+    background: url(img/요거트프라페.jpg) no-repeat center / cover;
+}
+#망고프라페 {
+    background: url(img/망고프라페.jpg) no-repeat center / cover;
+}
+#모카칩커피프라페 {
+    background: url(img/모카칩커피프라페.jpg) no-repeat center / cover;
+}
+#카라멜커피프라페 {
+    background: url(img/카라멜커피프라페.jpg) no-repeat center / cover;
+}
+#바닐라밀크쉐이크 {
+    background: url(img/바닐라밀크쉐이크.jpg) no-repeat center / cover;
+}
+#초코밀크쉐이크 {
+    background: url(img/초코밀크쉐이크.jpg) no-repeat center / cover;
+}
+#커피밀크쉐이크 {
+    background: url(img/커피밀크쉐이크.jpg) no-repeat center / cover;
+}
+#초콜릿라떼 {
+    background: url(img/초콜릿라떼.jpg) no-repeat center / cover;
+}
+#쑥라떼 {
+    background: url(img/쑥라떼.jpg) no-repeat center / cover;
+}
+
+/*병음료*/
+#아임얼라이브콤부차 {
+    background: url(img/아임얼라이브콤부차.jpg) no-repeat center / cover;
+}
+#페리에_레몬{
+    background: url(img/페리에_레몬.jpg) no-repeat center / cover;
+}
+#페리에_플레인{
+    background: url(img/페리에_플레인.jpg) no-repeat center / cover;
+}
+#에비앙미네랄워터 {
+    background: url(img/에비앙미네랄워터.jpg) no-repeat center / cover;
+}
+#프랭클린_라즈베리 {
+    background: url(img/프랭클린_라즈베리.jpg) no-repeat center / cover;
+}
+#프랭클린_레몬엘더 {
+    background: url(img/프랭클린_레몬엘더.jpg) no-repeat center / cover;
+}
+
